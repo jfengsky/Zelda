@@ -1,0 +1,22 @@
+{
+  "name": "zelda",
+  "version": "1.0.0",
+  "description": "node vue mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfengsky/Zelda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfengsky/Zelda/issues"
+  },
+  "homepage": "https://github.com/jfengsky/Zelda#readme",
+  "devDependencies": {
+    "webpack": "^3.4.1"
+  }
+}
