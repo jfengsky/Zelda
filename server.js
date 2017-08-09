@@ -1,15 +1,14 @@
 const express = require('express')
 const app = express()
 
-const view = `<!doctype html>
-<html>
+const view = `<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-<title>vue-webpack</title>
+    <meta charset="UTF-8">
+    <title>Vue example</title>
 </head>
 <body>
-    <section id="app"></section>
+    <div>{{message}}</div>
     <script src="/build.js"></script>
 </body>
 </html>`
